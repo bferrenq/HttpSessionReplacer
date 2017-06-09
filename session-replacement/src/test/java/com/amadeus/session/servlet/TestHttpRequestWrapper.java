@@ -22,8 +22,8 @@ import com.amadeus.session.SessionManager;
 public class TestHttpRequestWrapper {
 
   private static final String NEW_SESSION_ID = "11";
-private static final String SESSION_ID = "10";
-private ServletContext servletContext;
+  private static final String SESSION_ID     = "10";
+  private ServletContext      servletContext;
   private SessionManager sessionManager;
 
   @Before
