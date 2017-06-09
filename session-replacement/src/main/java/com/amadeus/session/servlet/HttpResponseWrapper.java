@@ -409,7 +409,7 @@ class HttpResponseWrapper extends HttpServletResponseWrapper implements Response
     boolean closing;
 
     ServletPrintWriter(Writer out) {
-      super(out);
+      super(out, true);
     }
 
     @Override
